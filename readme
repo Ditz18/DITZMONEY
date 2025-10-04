@@ -1,0 +1,27 @@
+project-root/
+│
+├─ index.php          → landing page (info + login/register)
+├─ login.php          → halaman login
+├─ register.php       → halaman register
+├─ dashboard.php      → setelah login (card ringkasan, form input, tabel, nav bottom)
+├─ logout.php
+│
+├─ includes/
+│   ├─ db.php         → koneksi database
+│   ├─ header.php     → header layout
+│   ├─ footer.php     → navigasi bottom
+│
+├─ assets/
+│   ├─ css/
+│   │   └─ style.css  → styling utama
+│   ├─ js/
+│   │   └─ script.js  → js tambahan (validasi, efek, dll)
+│   └─ img/           → logo/icon custom
+│
+└─ sql/
+    └─ schema.sql     → struktur database
+
+
+
+
+
